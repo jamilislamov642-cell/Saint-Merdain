@@ -1,0 +1,9 @@
+{
+  "name": "Saint Meridian Atlas",
+  "short_name": "Meridian",
+  "description": "A fictional cinematic 3D atlas of the coastal city of Saint Meridian.",
+  "theme_color": "#0b1113",
+  "background_color": "#0b1113",
+  "display": "standalone",
+  "orientation": "landscape"
+}
