@@ -5,4 +5,9 @@ import './styles.css';
 import './styles-overrides.css';
 import './interaction.css';
 import './advanced-map.css';
-createRoot(document.getElementById('root')!).render(<React.StrictMode><MapExperience /></React.StrictMode>);
+
+createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <MapExperience />
+  </React.StrictMode>
+);
