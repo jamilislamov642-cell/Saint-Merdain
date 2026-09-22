@@ -1,7 +1,6 @@
 import type { Location } from '../data';
 
 export type CatalogIssue = { id: string; message: string };
-
 export function validateCatalog(locations: Location[]): CatalogIssue[] {
   const issues: CatalogIssue[] = [];
   const ids = new Set<string>();
@@ -14,5 +13,4 @@ export function validateCatalog(locations: Location[]): CatalogIssue[] {
   });
   return issues;
 }
-
-export const isDevelopment = () => import.meta.env.DEV;
+export const isDevelopment = (): boolean => import.meta.env.DEV;
