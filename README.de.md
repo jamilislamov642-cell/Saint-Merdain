@@ -1,36 +1,59 @@
-# Saint Merdain
+<div align="center">
 
-**Saint Merdain** ist eine vollständig fiktive Küstenmetropole, die als filmischer interaktiver Stadtatlas umgesetzt wird. Das Projekt untersucht, wie Karten Geschichte, Atmosphäre, Infrastruktur und Alltag vermitteln können.
+# SAINT MERDAIN
 
-**Website:** [saintmerdain.city](https://saintmerdain.city/) · [Quellcode](https://github.com/jamilislamov642-cell/Saint-Merdain) · [Lizenz](./LICENSE) · [Deployment](./docs/deployment.md)
+### Eine fiktive Küstenstadt mit einer erstaunlich überzeugenden Vergangenheit.
 
-## Funktionen
+[![Quellcode](https://img.shields.io/badge/QUELLCODE-151d1f?style=for-the-badge&logo=github&logoColor=d1ad6b&labelColor=0b1113)](https://github.com/jamilislamov642-cell/Saint-Merdain)
+[![Dokumentation](https://img.shields.io/badge/DOKUMENTATION-1d302f?style=for-the-badge&logo=readthedocs&logoColor=9fbea1&labelColor=0b1113)](./docs/)
+[![MIT-Lizenz](https://img.shields.io/badge/MIT--LIZENZ-30271f?style=for-the-badge&logo=opensourceinitiative&logoColor=d1ad6b&labelColor=0b1113)](./LICENSE)
 
-- Prozedurale Three.js-Stadt mit Küste, Gelände, Straßen, Brücken, Hügeln, Skyline und Bezirks-Overlays.
-- Suche, Kategorien, Bezirksfilter, klickbare Orte, Detailkarten, Favoriten und Tag/Nacht-Modus.
-- Kamera-Rotation, Neigung, Zoom, Fokusbewegungen, Routing-Grundlagen, Clustering und Dichteanalyse.
-- Statische Architektur für GitHub Pages und eine eigene Cloudflare-Domain.
+*Die Karte ist fiktiv. Die Atmosphäre ist Absicht.*
 
-## Lokal starten
+</div>
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Produktionsprüfung:
+## Die Stadt
 
-```bash
-npm run build
-npm run preview
-```
+Saint Merdain ist eine originale Küstenmetropole, umgesetzt als interaktiver Stadtatlas. Kein Spiel, kein realer Ort und kein Versuch, einer zu sein. Ein Ort zum genaueren Hinsehen: Güterbahnhöfe unter Natriumlicht, Hügel über der Meeresluft, alte Viertel, die sich nicht verdrängen lassen, und eine Skyline mit eigenen Arbeitszeiten.
 
-## Technologie und Struktur
+Die Karte ist die Hauptfigur. Bezirke besitzen ihre eigene Dichte, Architektur, Stimmung und kleine Widersprüche. Orte und Straßen sind vollständig fiktiv.
 
-React, TypeScript, Vite, Three.js, HTML und CSS. `src/` enthält UI, Renderer und Daten; `public/` enthält Browser-Metadaten; `standalone.html` ist eine eigenständige Schnellversion.
+## Im Atlas
 
-## Lizenz
+- Filmische Three.js-Stadt mit Meer, Gelände, Straßen, Brücken, Hügeln, Skyline, Wahrzeichen und Bezirks-Overlays.
+- Durchsuchbare Orte mit Kategorien und Bezirksfiltern.
+- Anklickbare Orte mit Bewertungen, Öffnungszeiten, Beschreibungen und Adressen.
+- Kamera-Rotation, Neigung, Zoom, Fokusbewegungen, Tag/Nacht und Kartenebenen.
+- Grundlagen für Routenplanung, Routenverlauf und Zielauswahl.
+- Dichteanalyse, Marker-Clustering, räumliche Suche, Katalogprüfung und Geometrie-Cache.
 
-Das Projekt steht unter der [MIT-Lizenz](./LICENSE). Alle Stadtnamen, Orte und Inhalte sind fiktional und original.
+## Ton
+
+Dunkel, küstennah, zurückhaltend. Natriumlicht. Nasser Asphalt. Leiser Wohlstand. Späte Züge. Ein wenig Neon, wenn es sich seinen Platz verdient.
+
+## Technologie
+
+`React` · `TypeScript` · `Vite` · `Three.js` · `HTML` · `CSS`
+
+Statisch konzipiert. Kein Backend, keine Datenbank, kein API-Schlüssel und kein Server-Runtime sind für das Kartenerlebnis nötig.
+
+## Projektindex
+
+| Tür | Dahinter |
+| --- | --- |
+| [Quellcode](https://github.com/jamilislamov642-cell/Saint-Merdain) | Das Projekt und seine Geschichte |
+| [Architektur](./docs/architecture.md) | Systeme und Datenfluss |
+| [Interaktionen](./docs/interaction-systems.md) | Routen, Marker und Dichte |
+| [Deployment](./docs/deployment.md) | GitHub Pages und Domain-Konfiguration |
+| [Standalone-Atlas](./standalone.html) | Die Ein-Datei-Version |
+| [Lizenz](./LICENSE) | MIT-Lizenz |
+
+## Sprachen
 
 [English](./README.md) · [Deutsch](./README.de.md) · [Русский](./README.ru.md)
+
+---
+
+<div align="center"><sub>SAINT MERDAIN / CITY ATLAS</sub></div>
